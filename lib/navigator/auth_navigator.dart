@@ -3,6 +3,8 @@ import 'package:authen_navigation_bloc/bloc/auth_navigation_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+typedef  InitializeApp = Future<AuthNavigationState> Function(BuildContext context);
+
 class AuthNavigator extends StatefulWidget {
   const AuthNavigator({
     Key? key,
@@ -23,7 +25,7 @@ class AuthNavigator extends StatefulWidget {
 class _AuthNavigatorState extends State<AuthNavigator> {
   @override
   Widget build(BuildContext context) {
-    return BlocBuilder<AuthNavigtionBloc, AuthNavigationState>(
+    return BlocBuilder<AuthNavigationBloc, AuthNavigationState>(
       builder: (context, state) {
         switch (state.status) {
           case AuthNavigationStatus.loadConfig:

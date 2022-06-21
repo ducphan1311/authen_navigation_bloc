@@ -1,5 +1,5 @@
 name: authen_navigation_bloc
-description: A new Flutter project.
+description: Support auth navigation flutter bloc.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -14,7 +14,7 @@ description: A new Flutter project.
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.0.0
+version: 1.0.1
 
 homepage: https://github.com/ducphan1311/authen_navigation_bloc
 repository: https://github.com/ducphan1311/authen_navigation_bloc

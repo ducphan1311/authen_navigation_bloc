@@ -2,8 +2,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'auth_navigation_state.dart';
 
-class AuthNavigtionBloc extends Cubit<AuthNavigationState> {
-  AuthNavigtionBloc() : super(AuthNavigationState.initial());
+class AuthNavigationBloc extends Cubit<AuthNavigationState> {
+  AuthNavigationBloc() : super(AuthNavigationState.initial());
 
   void setState({required AuthNavigationState state}) {
     emit(state);
